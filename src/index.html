@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>EsriJS Mayhem</title>
+	<link rel="stylesheet" href="app/resources/main.css">
+</head>
+<body class="nihilo">
+	<script>
+		var dojoConfig = {
+			async: true,
+			baseUrl: './',
+			isDebug: true,
+			deps: [ 'app' ],
+			packages: [
+				'app',
+        { name: 'dojo', location: '../bower_components/dojo' },
+        { name: 'dgrid', location: '../bower_components/dgrid' },
+        { name: 'dijit', location: '../bower_components/dijit' },
+        { name: 'dstore', location: '../bower_components/dstore' },
+        { name: 'put-selector', location: '../bower_components/put-selector' },
+        { name: 'xstyle', location: '../bower_components/xstyle' },
+        { name: 'mayhem', location: '../bower_components/mayhem/dist' },
+        { name: 'intl-messageformat', location: '../bower_components/intl-messageformat/dist', main: 'intl-messageformat' },
+        { name: 'esprima', location: '../bower_components/esprima', main: 'esprima' }
+			],
+			tlmSiblingOfDojo: false
+		};
+	</script>
+  <script src="../bower_components/dojo/dojo.js"></script>
+</body>
+</html>
+
